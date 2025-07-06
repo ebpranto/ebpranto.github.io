@@ -1,6 +1,6 @@
 title: Ehsanul Bashar Pranto
 logo: formal.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+# description: Minimal is a theme for GitHub Pages.
+# show_downloads: true
+# google_analytics:
 theme: jekyll-theme-minimal
