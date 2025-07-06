@@ -32,7 +32,7 @@ I am an undergraduate student of the Department of Statistics at the University 
 # Contact
 
 * Email: ehsanulbashar190@gmail.com
-* Phone: (+880) 1705728190
+* <span style="font-size: 16px;"> Phone: (+880) 1705728190 </span>
 
 
 
