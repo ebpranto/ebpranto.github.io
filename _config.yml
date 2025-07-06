@@ -2,17 +2,26 @@ title: Ehsanul Bashar Pranto
 description: My Data Science Portfolio
 baseurl: "" # Keep this empty
 url: "https://ebpranto.github.io" # Change to your GitHub Pages link
-theme: jekyll_theme_minimal
+theme: jekyll-theme-minimal
+
+
+# title: Minimal theme
+# logo: /assets/img/logo.png
+# description: Minimal is a theme for GitHub Pages.
+# show_downloads: true
+# google_analytics:
+# theme: jekyll-theme-minimal
+
 
 author:
   name: Ehsanul Bashar Pranto
   email: ehsanulbashar190@gmail.com
 
-# # Navigation Bar
-# header_pages:
-#   - index.md
-#   - projects.md
-#   - contact.md
+# Navigation Bar
+header_pages:
+  - index.md
+  # - projects.md
+  # - contact.md
 
 # Optional: Social
 linkedin_username: your-linkedin-username
