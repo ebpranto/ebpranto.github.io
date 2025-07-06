@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Ehsanul Bashar Pranto
 ---
 
