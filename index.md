@@ -5,14 +5,15 @@ layout: default
 # Short Bio
 
 <span style="font-size: 16px;">
-``` js
 I am an undergraduate student of the Department of Statistics at the University of Rajshahi. I am very passionate about Machine Learning. Currently, I am working with Computer Vision.
-```
 </span>
 
 # Education
 <span style="font-size: 16px;">
 * B.S., Statistics, University of Rajshahi(2021-Present)
+</span>
+
+<span style="font-size: 16px;">
 * Higher Secondary: Shaheed Police Smrity College ( 2018-2020)
 </span>
 
