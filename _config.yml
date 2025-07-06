@@ -2,5 +2,5 @@ title: Ehsanul Bashar Pranto
 logo: formal-modified.png
 description: ML
 show_downloads: false
-google_analytics:
+# google_analytics:
 theme: jekyll-theme-minimal
