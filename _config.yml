@@ -1,6 +1,15 @@
 title: Ehsanul Bashar Pranto
-logo: pranto.png
-description: Machine Learning and Computer Vision Enthusiast
-# show_downloads: true
-# google_analytics:
-theme: jekyll-theme-minimal
+description: My Data Science Portfolio
+baseurl: "" # Leave this empty for user.github.io
+url: "https://ebpranto.github.io" # Replace with your GitHub Pages link
+theme: minima
+
+# Optional settings
+author:
+  name: Ehsanul Bashar Pranto
+  email: ehsanulbashar190@gmail.com
+
+# Social links (add if you want)
+linkedin_username: https://www.linkedin.com/in/ehsanul-bashar-pranto
+
+github_username: https://github.com/ebpranto
