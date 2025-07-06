@@ -4,3 +4,7 @@ description: ML
 show_downloads: false
 # google_analytics:
 theme: jekyll-theme-minimal
+
+# For social icons
+github_username: https://github.com/ebpranto
+linkedin_username: https://www.linkedin.com/in/ehsanul-bashar-pranto
