@@ -2,3 +2,27 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.left-panel {
+  width: 30%; /* You can adjust width */
+  padding: 20px;
+}
+
+.vertical-line {
+  width: 3px;
+  background-color: #4b6cb7; /* Line color */
+  height: 100vh; /* Full viewport height */
+  margin: 0 20px;
+  border-radius: 2px;
+}
+
+.right-panel {
+  width: 65%; /* Adjust according to preference */
+  padding: 20px;
+}
