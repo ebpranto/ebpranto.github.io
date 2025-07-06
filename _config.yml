@@ -13,16 +13,16 @@ theme: jekyll-theme-minimal
 # theme: jekyll-theme-minimal
 
 
-author:
-  name: Ehsanul Bashar Pranto
-  email: ehsanulbashar190@gmail.com
+# author:
+#   name: Ehsanul Bashar Pranto
+#   email: ehsanulbashar190@gmail.com
 
-# Navigation Bar
-header_pages:
-  - index.md
-  # - projects.md
-  # - contact.md
+# # Navigation Bar
+# header_pages:
+#   - index.md
+#   # - projects.md
+#   # - contact.md
 
-# Optional: Social
-linkedin_username: your-linkedin-username
-github_username: your-github-username
+# # Optional: Social
+# linkedin_username: your-linkedin-username
+# github_username: your-github-username
