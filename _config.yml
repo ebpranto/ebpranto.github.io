@@ -2,7 +2,7 @@ title: Ehsanul Bashar Pranto
 description: My Data Science Portfolio
 baseurl: "" # Keep this empty
 url: "https://ebpranto.github.io" # Change to your GitHub Pages link
-theme: minima
+theme: jekyll_theme_minimal
 
 author:
   name: Ehsanul Bashar Pranto
