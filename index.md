@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<img src="formal.png" alt="Ehsanul Bashar Pranto" width="200"/>
+<img src="pranto.png" alt="Ehsanul Bashar Pranto" width="200"/>
 
 # 👋 Welcome!
 
