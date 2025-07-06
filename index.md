@@ -9,40 +9,33 @@ I am an undergraduate student of the Department of Statistics at the University 
 </span>
 
 # Education
-<span style="font-size: 16px;">
 * B.S., Statistics, University of Rajshahi(2021-Present)
-</span>
 
-<span style="font-size: 16px;">  
 * Higher Secondary: Shaheed Police Smrity College ( 2018-2020)</span>
 
 
 # Research Interest
-<span style="font-size: 16px;">
 
 * Machine Learning
 * Computer Vision
 
-</span>
-
-
 # Skills
-<span style="font-size: 16px;">
+
 * Python
 * Pytorch
 * Numpy
 * Pandas
 * SPSS
 * LaTeX
-</span>
+
 
 # Publication
 
 
 # Contact
 
- - Email: ehsanulbashar190@gmail.com
- - <span style="font-size: 16px;">Phone: (+880) 1705728190 </span>
+ * <span style="font-size: 16px;">Email: ehsanulbashar190@gmail.com </span>
+ * <span style="font-size: 16px;">Phone: (+880) 1705728190 </span>
 
 
 
