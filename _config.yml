@@ -1,15 +1,19 @@
 title: Ehsanul Bashar Pranto
 description: My Data Science Portfolio
-baseurl: "" # Leave this empty for user.github.io
-url: "https://ebpranto.github.io" # Replace with your GitHub Pages link
+baseurl: "" # Keep this empty
+url: "https://ebpranto.github.io" # Change to your GitHub Pages link
 theme: minima
 
-# Optional settings
 author:
   name: Ehsanul Bashar Pranto
-  email: ehsanulbashar190@gmail.com
+  email: your@email.com
 
-# Social links (add if you want)
-linkedin_username: https://www.linkedin.com/in/ehsanul-bashar-pranto
+# Navigation Bar
+header_pages:
+  - index.md
+  - projects.md
+  - contact.md
 
-github_username: https://github.com/ebpranto
+# Optional: Social
+linkedin_username: your-linkedin-username
+github_username: your-github-username
