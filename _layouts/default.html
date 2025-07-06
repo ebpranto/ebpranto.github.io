@@ -13,15 +13,16 @@
 
 
   <body>
-    <div class="wrapper">
-      <header>
+  <div class="wrapper">
+    <div class="container">
+      
+      <header class="left-panel">
+        <!-- Header content -->
         <h1 style="white-space: nowrap;">
-        <a href="{{ "/" | absolute_url }}" style="text-decoration: none; color: inherit;">
-          
-          {{ site.title | default: site.github.repository_name }}
-        </a>
+          <a href="{{ "/" | absolute_url }}" style="text-decoration: none; color: inherit;">
+            {{ site.title | default: site.github.repository_name }}
+          </a>
         </h1>
-
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -29,33 +30,30 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-      
-      <a href="https://github.com/ebpranto" target="_blank">
-          <i class="fab fa-github fa-2x" style="margin-left: 70px; margin-right: 50px;"></i>
-      </a>
-      
-      <a href="https://linkedin.com/in/ehsanul-bashar-pranto" target="_blank">
-          <i class="fab fa-linkedin fa-2x" style="margin-right: 40px; color: #0077B5;"></i>
-      </a>
+        <a href="https://github.com/ebpranto" target="_blank">
+          <i class="fab fa-github fa-2x" style="margin-left: 20px; margin-right: 20px;"></i>
+        </a>
 
-        <hr style="border: 2px solid #4b6cb7; margin: 20px 0; border-radius: 2px;">
-<!--       
-      <a href="mailto:youremail@example.com">
-          <i class="fas fa-envelope fa-2x" style="margin-right: 40px;"></i>
-      </a> -->
-
+        <a href="https://linkedin.com/in/ehsanul-bashar-pranto" target="_blank">
+          <i class="fab fa-linkedin fa-2x" style="margin-right: 20px; color: #0077B5;"></i>
+        </a>
       </header>
-      <section>
 
-      {{ content }}
+      <!-- 🔹 Vertical Separator -->
+      <div class="vertical-line"></div>
 
+      <section class="right-panel">
+        {{ content }}
       </section>
-      <footer>
-      </footer>
-      </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
+
+    </div> <!-- end container -->
+
+    <footer></footer>
+  </div>
+
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
 
 
+  
 </html>
