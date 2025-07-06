@@ -13,13 +13,15 @@ I am an undergraduate student of the Department of Statistics at the University 
 * Higher Secondary: Shaheed Police Smrity College ( 2018-2020)
 </span>
 
-``` js
+
 # Research Interest
 <span style="font-size: 16px;">
+``` js
 * Machine Learning
 * Computer Vision
-</span>
 ```
+</span>
+
 
 # Skills
 <span style="font-size: 16px;">
