@@ -5,47 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% seo %}
+{% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
   </head>
 
-  <body>
-    <!-- Custom Header -->
-    <header style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f4f4f4; border-bottom: 1px solid #ddd;">
-      <div>
-        <h1 style="margin: 0; font-size: 24px;">
-          <a href="{{ "/" | absolute_url }}" style="text-decoration: none; color: inherit;">
-            {{ site.title | default: site.github.repository_name }}
-          </a>
-        </h1>
-        <p style="margin: 0; font-size: 14px;">{{ site.description | default: site.github.project_tagline }}</p>
-      </div>
-
-      <div>
+<!-- <!-- Custom Header -->
+<!--  <header style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f4f4f4; border-bottom: 1px solid #ddd;">
+    <div>
+        <h1 style="margin: 0; font-size: 24px;">{{ site.title }}</h1>
+        <p style="margin: 0; font-size: 14px;">{{ site.description }}</p>
+    </div>
+    <div>
         <a href="https://github.com/your-username" target="_blank" style="margin-right: 15px;">
-          <i class="fab fa-github fa-2x"></i>
+            <i class="fab fa-github fa-2x"></i>
         </a>
         <a href="https://linkedin.com/in/your-username" target="_blank" style="margin-right: 15px;">
-          <i class="fab fa-linkedin fa-2x" style="color: #0077B5;"></i>
+            <i class="fab fa-linkedin fa-2x" style="color: #0077B5;"></i>
         </a>
         <a href="mailto:youremail@example.com">
-          <i class="fas fa-envelope fa-2x"></i>
+            <i class="fas fa-envelope fa-2x"></i>
         </a>
-      </div>
-    </header>
-
-    <div class="wrapper">
-      <section>
-        {{ content }}
-      </section>
     </div>
+</header>  -->
+ -->
+  
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      
+      <a href="https://github.com/your-username" target="_blank">
+          <i class="fab fa-github fa-2x" style="margin-right: 10px;"></i>
+      </a>
+      
+      <a href="https://linkedin.com/in/your-username" target="_blank">
+          <i class="fab fa-linkedin fa-2x" style="margin-right: 10px; color: #0077B5;"></i>
+      </a>
+      
+      <a href="mailto:youremail@example.com">
+          <i class="fas fa-envelope fa-2x" style="margin-right: 10px;"></i>
+      </a>
+
+      </header>
+      <section>
+
+      </section>
+      
+<!--       <footer>
+      </footer> -->
+    </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
+
+correct it
