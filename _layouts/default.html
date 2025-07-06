@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
@@ -50,7 +50,50 @@
       
 <!--       <footer>
       </footer> -->
-    </div>
+<!--     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
-</html>
+<!-- </html> --> 
+
+
+
+
+
+<header style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 20px; background-color: #1e1e2f; border-bottom: 3px solid #0077B5;">
+
+  <!-- Left Side: Logo and Name -->
+  <div style="display: flex; align-items: center;">
+    {% if site.logo %}
+      <img src="{{site.logo | relative_url}}" alt="Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-right: 15px;">
+    {% endif %}
+
+    <h1 style="white-space: nowrap; margin: 0; font-size: 24px; color: #ffffff;">
+      <a href="{{ "/" | absolute_url }}" style="text-decoration: none; color: inherit;">
+        {{ site.title | default: site.github.repository_name }}
+      </a>
+    </h1>
+  </div>
+
+  <!-- Right Side: Social Icons -->
+  <div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <a href="https://github.com/your-username" target="_blank" style="margin-right: 20px; color: #ffffff; text-decoration: none;">
+      <i class="fab fa-github fa-2x"></i>
+    </a>
+
+    <a href="https://linkedin.com/in/your-username" target="_blank" style="margin-right: 20px; color: #0077B5; text-decoration: none;">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+
+    <a href="mailto:youremail@example.com" style="color: #ffffff; text-decoration: none;">
+      <i class="fas fa-envelope fa-2x"></i>
+    </a>
+  </div>
+</header>
+
+
+
+
+
+
