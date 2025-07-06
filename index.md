@@ -3,8 +3,11 @@ layout: default
 ---
 
 # Short Bio
+
 <span style="font-size: 16px;">
+``` js
 I am an undergraduate student of the Department of Statistics at the University of Rajshahi. I am very passionate about Machine Learning. Currently, I am working with Computer Vision.
+```
 </span>
 
 # Education
@@ -16,10 +19,10 @@ I am an undergraduate student of the Department of Statistics at the University 
 
 # Research Interest
 <span style="font-size: 16px;">
-``` js
+
 * Machine Learning
 * Computer Vision
-```
+
 </span>
 
 
@@ -38,8 +41,8 @@ I am an undergraduate student of the Department of Statistics at the University 
 
 # Contact
 <span style="font-size: 16px;">
-* Email: ehsanulbashar190@gmail.com
-* Phone: (+880) 1705728190
+ - Email: ehsanulbashar190@gmail.com
+ - Phone: (+880) 1705728190
 </span>
 
 
