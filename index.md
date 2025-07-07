@@ -11,7 +11,7 @@ I am an undergraduate student of the Department of Statistics at the University 
 # Education
 * B.S., Statistics, University of Rajshahi(2021-Present)
 
-* Higher Secondary: Shaheed Police Smrity College ( 2018-2020)</span>
+* Higher Secondary: Shaheed Police Smrity College ( 2018-2020)
 
 
 # Research Interest
